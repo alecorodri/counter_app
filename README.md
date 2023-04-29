@@ -1,3 +1,5 @@
-# counter_app
+# A simple counter_app
 
-## Vite + React
+## Learning React
+
+### Vite + React
