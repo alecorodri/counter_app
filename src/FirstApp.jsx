@@ -5,7 +5,7 @@ const newMessage = {
 };
 
 const getResult = () => {
-    return JSON.stringify(newMessage);
+    return JSON.stringify(newMessage.title);
 } 
 
 
