@@ -5,13 +5,18 @@ import PropTypes from 'prop-types'
 
 export const CounterApp = ({ value }) => {
 
+    const handAdd = (event, newValue) => {
+        
+    }
 
     return (
         <>
             <h1> Counter App </h1>
-            <div>
-                <h2> {value} </h2>
-            </div>
+            <h2> {value} </h2>
+            <button onClick={ handAdd }>
+                +1
+
+            </button>
 
         </>
 
@@ -25,3 +30,4 @@ CounterApp.protoType = {
 CounterApp.defaultProps = {
     value: 0
 }
+
